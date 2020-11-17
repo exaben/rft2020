@@ -18,6 +18,11 @@ public class OsszegEsKulonbseg {
         sum=x+y;
         return sum;
     }
+    static int kivonas(int x, int y){  
+        int sum;
+        sum=x-y;
+        return sum;
+    }
 
   
     public static void main(String[] args) {
@@ -27,6 +32,7 @@ public class OsszegEsKulonbseg {
         int a=13;
         int b=3;
         System.out.println("A két szám összege: " + osszeg(a,b)); //itt meghívom a metódust
+        System.out.println("A két szám különbsége: " + kivonas(a,b)); //itt meghívom a metódust
     }
     
 }
